@@ -1,0 +1,35 @@
+body
+{
+    background-color: black;
+    color: silver;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.btnclass{
+    background-color: black;
+    color: rosybrown;
+    font-family: Impact;
+    font-stretch: expanded;
+    /* font-weight: bold; */
+}
+
+li{
+    /* opacity: 1; */
+    list-style-type: none;
+    font-weight: bolder;
+    /* transition: ease-in 2s; */
+    animation-name: example1;
+    animation-duration: 4s;
+}
+
+@keyframes example1 {
+    0%   {color: rgb(231, 7, 7); font-weight: bold; }
+    25%  {color: rgba(238, 11, 189, 0.897); font-weight: bolder; }
+    50%  {color: rgb(6, 6, 223); font-weight: bold; }
+    100% {color: rgb(35, 173, 35); font-weight: bolder; }
+}
+
+
+
